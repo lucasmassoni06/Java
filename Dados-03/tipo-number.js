@@ -5,4 +5,4 @@ const notaQuartoBI = Number.parseInt('5'); // "Number.parseint() reconhece o str
 
 const total = (notaPrimeiroBi + notaSegundoBi + notaTerceiroBi + notaQuartoBI) / 4;
 
-console.log(' a media e ' + total.toFixed(2));
+console.log(' a media e ' + total.toFixed(2)); // toFixed() limita o numero de casas decimais
