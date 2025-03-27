@@ -10,3 +10,5 @@ console.log(`a estudante chama ${estudante}`); // ${}para envolver variavel
 
 //template string
 
+const senha = 'SenhaSegura123' + estudante.toUpperCase(); // toUppercase = tudo em caps lock
+console.log(senha);

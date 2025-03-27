@@ -1,4 +1,4 @@
-/*
+
 #1
 // Declarando as variáveis
 let nome = "João";  // string
@@ -38,4 +38,4 @@ if (1>0){
     console.log(nome)
 }
 console.log(nome)
-*/
+
