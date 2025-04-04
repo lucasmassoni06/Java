@@ -2,8 +2,8 @@
 // retorno
 
 function exibeInfoEstudante(nome, nota) {
-    console.log(`o nome e ${nome} e a nota e ${nota}`);
+    return `o nome e ${nome} e a nota e ${nota}`; // return faz com que retorne nas informacoes dentro de blocos
 }
 
-exibeInfoEstudante(10, 'Caroline');
-exibeInfoEstudante('Ana', 8);
+console.log(exibeInfoEstudante('Caroline', 10));
+console.log(exibeInfoEstudante('Ana', 8));
